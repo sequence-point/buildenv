@@ -6,6 +6,7 @@ RUN apt-get update -y \
 		ca-certificates \
 		clang \
 		curl \
+		git \
 		wget \
 	&& rm -rf /var/lib/apt/lists/*
 
