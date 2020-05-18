@@ -8,6 +8,7 @@ RUN apt-get update -y \
 		curl \
 		git \
 		wget \
+		gcc \
 	&& rm -rf /var/lib/apt/lists/*
 
 RUN mkdir /build2-build \
